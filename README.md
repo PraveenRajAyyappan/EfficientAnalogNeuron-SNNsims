@@ -19,6 +19,17 @@ This repository houses the codebase for the digital modeling of networks of bior
 
 In our paper, we explore the development of scalable digital models for networks of biorealistic silicon neurons. We present detailed biomimetic Spiking Neural Network implementations in multiple programming languages, including C (floating and fixed point), MATLAB, and Python. These models allow for the simulation and study of the behavior of biorealistic silicon neurons in various contexts.
 
+## Code Structure
+
+The repository is organized as follows:
+
+- `c_code/`: This directory contains implementations of the neuron model in C for both floating-point and fixed-point simulations.
+- `matlab_code/`: Inside this folder, you'll find MATLAB code used for running SNN simulations.
+- `python_code/`: In this directory, you can access Python code for the neuron simulations. 
+- `data/`: The data directory stores datasets collected from simple neuron simulations.
+- `docs/`: Within this folder, you can find useful and related papers, documentation, or user guides.
+
+
 ## Cite [![](link to paper) 
 
 If you use this simulation framework in your research or educational material, please cite the work as follows: 
