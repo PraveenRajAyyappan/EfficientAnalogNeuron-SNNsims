@@ -7,9 +7,7 @@ Welcome to the GitHub repository for the paper titled "Towards Scalable Digital 
 1. [Introduction](#introduction)
 2. [Paper Overview](#paper-overview)
 3. [Code Structure](#code-structure)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
+4. [Cite](#license)
 
 ## Introduction
 
