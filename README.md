@@ -21,9 +21,10 @@ In our paper, we explore the development of scalable digital models for networks
 
 The repository is organized as follows:
 
-- `c_code/`: This directory contains implementations of the neuron model in C for both floating-point and fixed-point simulations.
-- `matlab_code/`: Inside this folder, you'll find MATLAB code used for running SNN simulations.
-- `python_code/`: In this directory, you can access Python code for the neuron simulations. 
+- `C_fixedpoint/`: This directory contains the most efficient implementations of the neuron model, along with various network simulations featuring as many as 100,000 neurons, all utilizing fixed-point operations in the C programming language.
+- `C_floatingpoint/`: This directory has the C code  to simulate both neurons and basic Spiking Neural Network (SNN) operations in floating-point format.
+- `MATLAB/`: Inside this folder, you'll find MATLAB code used for running SNN simulations.
+- `Python/`: In this directory, you can access Python code for the neuron simulations. 
 - `data/`: The data directory stores datasets collected from simple neuron simulations.
 - `docs/`: Within this folder, you can find useful and related papers, documentation, or user guides.
 
