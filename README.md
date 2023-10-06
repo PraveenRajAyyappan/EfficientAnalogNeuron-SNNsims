@@ -1,6 +1,6 @@
 # GitHub Repository: Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons
 
-Welcome to the GitHub repository for the paper titled "Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons." This repository contains all the code used to produce the results presented in the paper, including implementations in C (floating and fixed point), MATLAB, and Python. The neuron model used in this platform is derived from the FH neuron model as described in the paper "A Bio-Physically Inspired Silicon Neuron."
+Welcome to the GitHub repository for the paper titled "Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons." This repository contains all the code used to produce the results presented in the paper, including implementations in C (floating and fixed point), MATLAB, and Python. The neuron model used in this platform is derived from the FH neuron model as described in the paper "E. Farquhar and P. Hasler, "A bio-physically inspired silicon neuron", March 2005, doi: 10.1109/TCSI.2004.842871."
 
 ## Table of Contents
 
