@@ -52,4 +52,4 @@ Formatted:
 ```
 S. Bhattacharyya, P. R. Ayyappan and J. O. Hasler, "Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2023.3330069.
 ``` 
-The research paper corresponding to the above citation can be found [here]([link to paper](https://ieeexplore.ieee.org/document/10305556)https://ieeexplore.ieee.org/document/10305556).
+The research paper corresponding to the above citation can be found [here]([(https://ieeexplore.ieee.org/document/10305556]).
