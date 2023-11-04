@@ -34,12 +34,22 @@ The repository is organized as follows:
 If you use this simulation framework in your research or educational material, please cite the work as follows: 
 Bibtex:
 ```
-produce the BibTeX of the paper
+@ARTICLE{10305556,
+  author={Bhattacharyya, Swagat and Ayyappan, Praveen Raj and Hasler, Jennifer O.},
+  journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, 
+  title={Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JETCAS.2023.3330069}}
+
+
 }
 ```
 
 Formatted:
 ```
-Swagat Bhattacharyya, Praveen Raj Ayyappan, Jennifer Hasler. "Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons" (2023).
+S. Bhattacharyya, P. R. Ayyappan and J. O. Hasler, "Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2023.3330069.
 ``` 
-The research paper corresponding to the above citation can be found [here](link to paper).
+The research paper corresponding to the above citation can be found [here]([link to paper](https://ieeexplore.ieee.org/document/10305556)https://ieeexplore.ieee.org/document/10305556).
