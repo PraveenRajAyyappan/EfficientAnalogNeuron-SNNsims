@@ -72,7 +72,7 @@ int main() {
   float dt     = 0.001; // Units (ms)
   int   NSteps = 1e5;  // Total Number of steps to take in the simulation
   int PulseStartIdx = 20000;
-  float PulseHeight = 350.0; // In pA
+  float PulseHeight = 50.0; // In pA
 
 
   // Open a file for writing

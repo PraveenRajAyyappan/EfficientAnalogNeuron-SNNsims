@@ -375,9 +375,9 @@ int main() {
 
   // Define simulation parameters
   float dt     = 0.001; // Units (ms)
-  int   NSteps = 1e5;  // Total Number of steps to take in the simulation
-  int PulseStartIdx = 30000;
-  int PulseendIdx = 70000;
+  int   NSteps = 1.2e5;  // Total Number of steps to take in the simulation
+  int PulseStartIdx = 50000;
+  int PulseendIdx = 90000;
   float Inp_current[NeuronPopulation] = {};
   
   // For 1 neuron 20000-80000  - 0.06s/60ms
