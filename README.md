@@ -29,7 +29,7 @@ The repository is organized as follows:
 - `docs/`: Within this folder, you can find useful and related papers, documentation, or user guides.
 
 
-## Cite [![](link to paper) 
+## Cite
 
 If you use this simulation framework in your research or educational material, please cite the work as follows: 
 Bibtex:
@@ -43,7 +43,6 @@ Bibtex:
   number={},
   pages={1-1},
   doi={10.1109/JETCAS.2023.3330069}}
-
 
 }
 ```
