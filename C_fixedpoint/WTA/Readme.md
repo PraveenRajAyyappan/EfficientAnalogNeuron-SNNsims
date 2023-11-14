@@ -15,4 +15,4 @@ Possible difficulties to look out for:
     4 - Now you are set to follow the above directions 'Running WTA' to compile the code and then run it. Make sure a text file titled WTA is actually output into the same folder directory. 
 --Make sure when you run the Matlab plotting script (Plot_WTA.m) the output looks like the below output.
 
-![Alt text](FigureOutput_Plot_WTA.fig)
+(![Alt text](Plot_WTA_Output.PNG))
