@@ -45,16 +45,19 @@ It contains the functions and parameters imported and called by the OneNeuron, S
 
 ## OneNeuron
 Using a simple ODE function called Neuron, which is called in NeuronTest, this script simulates a singular FH Type HH neuron and its synapse. This code's output displays the three variables(V_k, V_g, V_Na) used to simulate the neuron. It also shows the input current change over time(bottom of figure) as well as the membrane voltage change over time(top of figure).
+
 ![Alt text](OneNeuron_Figure.png)
 
 
 ## Synfire 1D
 This script simulates response of a FH neuron that is in a 1D Synfire chain. This is similar to the MatLab code which simulates the biological motor pathways which are formed from the interconnected pools of neurons. These neurons have a chain-like firing pattern giving them the name synfire chain. 
 The output figure of this Python script is similar to the Base_e Synfire output figure.
+
 ![Alt text](Synfire_Figure.png)
 
 
 ## WTA
 This code simulates the response of a FH neuron using a Winner-Take_All approach the same as the MatLab WTA for base_e. It should be noted the Python script uses an Eulor step solver function while the MatLab script uses the built in ODE function. This Python WTA code achieves the same output as the MatLab Base_e WTA script.
+
 ![Alt text](WTA_Figure.png)
 
