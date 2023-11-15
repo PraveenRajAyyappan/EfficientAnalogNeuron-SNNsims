@@ -1,26 +1,30 @@
 ## Requirements
 Make sure you have version R2023b Matlab installed.
 
+
 ## Possible Errors
-If the code runs but the output does not resemble the imbedded output images:
+-->If the code runs but the output does not resemble the imbedded output images:
     -Make sure the variables are calculated correctly and there are no small typos(typos should not be present to start). Check the calculations for variables in other scripts to ensure they match.
     -Ensure the 'Params.NeuronPopulation' parameter is properly set to the amount of neurons for the given code
         -4 for WTA
         -3 for synfire
         -1 for Single Neuron
-    
+-->If parameters are changed make sure to adjust initial conditions accordingly otherwise it will likely not converge properly
+
+
 ## Params
 These are the parameters set for the simulation of the FH neuron to be modified using the SpecifyNeuronsParams script described below.
 
 
 ## SpecifyNeuronParams
 Run this in order to change the Parameters of the FH neuron model.
-This will allow the tuning of the simulation to be tailored to specific research based off of differing neuron parameters from different biological species.
+This will allow the tuning of the simulation to be tailored to specific research based off of differing neuron parameters from different biological species. 
+-->Make sure if you change the parameters you change the initial conditions as well.
 # Running SpecifyNeuronParams 
-Open the MatLab SpecifyNeuronParams script in MatLab.
-?
-?
-?
+Open the MatLab SpecifyNeuronParams script in MatLab. 
+Change parameters as needed.
+Update initial conditions accordingly.
+Run the script.
 
 
 ## WTA
@@ -31,7 +35,7 @@ These FP models are then converetd to FXP.
 # Running WTA script
 Open the MatLab WTA script in Matlab and run the WTA. 
 This will display the output of the 4 inhibitory synapses. 
-()
+(![Alt text](WTA_figure-1.png))
 
 
 

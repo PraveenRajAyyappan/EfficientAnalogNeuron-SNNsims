@@ -41,16 +41,13 @@ Params.Input(:,1) = (20*(+((Params.tvec >= 0.1) & (Params.tvec <= 0.2))) + 30*(+
 Params.Input(:,2) = (40*(+((Params.tvec >= 0.1) & (Params.tvec <= 0.2))) + 20*(+((Params.tvec >= 0.3) & (Params.tvec <= 0.4))) + 30*(+((Params.tvec >= 0.5) & (Params.tvec <= 0.6)))).'; % In A
 Params.Input(:,3) = (30*(+((Params.tvec >= 0.1) & (Params.tvec <= 0.2))) + 50*(+((Params.tvec >= 0.3) & (Params.tvec <= 0.4))) + 20*(+((Params.tvec >= 0.5) & (Params.tvec <= 0.6)))).'; % In A
 [t,y] = ode15s(@(t,y)NetworkODE(t,y,Params),tspan,y(end,:).');
-SteadyState = y(end,:);
-y = zeros(length(Params.Input),size(y,2));
-y(1,:) = SteadyState;
-% for i = 2:length(Params.Input) % Implicit Euler
-%     y(i,:) = fsolve(@(x)EqSolve(x,y(i-1,:).',dt,Params.tvec(i-1),Params),y(i-1,:).');
-% end
+% SteadyState = y(end,:);
+% y = zeros(length(Params.Input),size(y,2));
+% y(1,:) = SteadyState;
 % for i = 2:length(Params.Input) % Forward Euler
 %     y(i,:) = y(i-1,:) + dt*NetworkODE(Params.tvec(i-1),y(i-1,:).',Params).';
 % end
-t = Params.tvec;
+%t = Params.tvec;
 
 %% Plot Output
 figure, hold on;
