@@ -1,14 +1,15 @@
-# Requirements
+## Requirements
 Make sure you have version R2023b Matlab installed.
 
-# Possible Errors
-If the code runs but the output does not resemble the imbedded images:
+## Possible Errors
+If the code runs but the output does not resemble the embedded images:
     -Make sure the variables are calculated correctly and there are no small typos(these should not be present to start)
     -Ensure the 'Params.NeuronPopulation' parameter is properly set to the amount of neurons for the given code
         -4 for WTA
         -3 for synfire
         -1 for Single Neuron
 The Single Neuron Script may error if you do not have the Optimization Toolbox installed. See below under '## Single Neuron' for more details on this.
+
 
 ## SpecifyNeuronParams
 Run this in order to change the Parameters of the FH neuron model.

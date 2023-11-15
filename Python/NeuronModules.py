@@ -1,8 +1,6 @@
+# This script contains the functions and parameters necessary to properly run the WTA, Synfire, and OneNeuron scripts.
 import numpy as np
-from scipy.integrate import odeint
 import matplotlib.pyplot as plt
-from scipy.interpolate import interp1d
-
 
 def euler_solver(ode_function, y0, t, dt, Params):
     # Initialize the array to hold the solution

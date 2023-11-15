@@ -1,8 +1,6 @@
 # This Script Simulates the response of a Farquhar-Hasler Neuron in a WTA
 import numpy as np
-from scipy.integrate import odeint
 import matplotlib.pyplot as plt
-from scipy.interpolate import interp1d
 from NeuronModules import *
 
 

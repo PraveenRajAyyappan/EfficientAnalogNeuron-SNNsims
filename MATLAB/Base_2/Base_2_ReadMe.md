@@ -3,13 +3,13 @@ Make sure you have version R2023b Matlab installed.
 
 
 ## Possible Errors
--->If the code runs but the output does not resemble the imbedded output images:
+-->If the code runs but the output does not resemble the embedded output images:
     -Make sure the variables are calculated correctly and there are no small typos(typos should not be present to start). Check the calculations for variables in other scripts to ensure they match.
     -Ensure the 'Params.NeuronPopulation' parameter is properly set to the amount of neurons for the given code
         -4 for WTA
         -3 for synfire
         -1 for Single Neuron
--->If parameters are changed make sure to adjust initial conditions accordingly otherwise it will likely not converge properly
+-->If parameters are changed make sure to adjust initial conditions accordingly otherwise it will likely NOT converge properly.
 
 
 ## Params
@@ -35,7 +35,7 @@ These FP models are then converetd to FXP.
 # Running WTA script
 Open the MatLab WTA script in Matlab and run the WTA. 
 This will display the output of the 4 inhibitory synapses. 
-(![Alt text](WTA_figure-1.png))
+(![Alt text](WTA_figure.png))
 
 
 
