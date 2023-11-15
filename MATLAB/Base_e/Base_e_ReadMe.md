@@ -23,7 +23,7 @@ These FP models are then converetd to FXP.
 # Running WTA script
 Open the MatLab WTA script in Matlab and run the WTA. 
 This will display the output of the 4 inhibitory synapses. 
-(![Alt text](WTA_Output-1.PNG))
+(![Alt text](WTA_Output.PNG))
 
 
 
@@ -32,7 +32,7 @@ This MatLab code simulates the biological motor pathways formed via interconnect
 # Running Synfire script
 Open the MatLab synfire script in Matlab and run the synfire. 
 This will display the output of the synfire chain as seen below.
-(![Alt text](Synfire_Output_Base_e-1.PNG))
+(![Alt text](Synfire_Output_Base_e.PNG))
 
 
 
@@ -45,7 +45,9 @@ Open the MatLab SingleNeuronSynapseTest script in MatLab and run this.
 The display should look like the output below for a singular neuron.
 There should be two figures displayed. 
     -->One figure shows the change in Current over time for the Excitatory or Inhibitory neuron simulation.
+        (![Alt text](Single_Neuron_Fig_2_.PNG))
     -->The other figure displays:
         -Change in membrane voltage over time
         -Change in external membrane current over time
         -Change in spike threshold between the excitatory and inhibitory outputs from the Triangle Generator ODE function
+        (![Alt text](Single_Neuron_Fig_1_.PNG))
