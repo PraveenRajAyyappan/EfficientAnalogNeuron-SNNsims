@@ -44,10 +44,11 @@ This MatLab code simulates a single FH neuron response.
 Open the MatLab SingleNeuronSynapseTest script in MatLab and run this. 
 The display should look like the output below for a singular neuron.
 There should be two figures displayed. 
-    -->One figure shows the change in Current over time for the Excitatory or Inhibitory neuron simulation.
+    -->One figure shows the change in output synapse current over time for the Excitatory or Inhibitory neuron simulation.
         (![Alt text](Single_Neuron_Fig_2_.PNG))
     -->The other figure displays:
         -Change in membrane voltage over time
-        -Change in external membrane current over time
-        -Change in spike threshold between the excitatory and inhibitory outputs from the Triangle Generator ODE function
+        -Triangle Generator ODE (excitatory and inhibitory) 
+        outputs
+        -Externally supplied input current
         (![Alt text](Single_Neuron_Fig_1_.PNG))

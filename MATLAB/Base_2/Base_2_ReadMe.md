@@ -10,7 +10,7 @@ If the code runs but the output does not resemble the imbedded output images:
         -1 for Single Neuron
     
 ## Params
-These are the parameters set for the simulation of the FH neuron to be modified using the SpecifyNeuromsParams script described below.
+These are the parameters set for the simulation of the FH neuron to be modified using the SpecifyNeuronsParams script described below.
 
 
 ## SpecifyNeuronParams
@@ -18,7 +18,9 @@ Run this in order to change the Parameters of the FH neuron model.
 This will allow the tuning of the simulation to be tailored to specific research based off of differing neuron parameters from different biological species.
 # Running SpecifyNeuronParams 
 Open the MatLab SpecifyNeuronParams script in MatLab.
-
+?
+?
+?
 
 
 ## WTA
@@ -38,7 +40,7 @@ This MatLab code simulates the biological motor pathways formed via interconnect
 # Running Synfire_1D script
 Open the MatLab synfire script in Matlab and run the synfire. 
 This will display the output of the synfire chain as seen below.
-(![Alt text](Synfire_1D_output-1.PNG))
+(![Alt text](Synfire_1D_output.PNG))
 
 
 
@@ -47,4 +49,4 @@ This MatLab code simulates a single FH neuron and synapse response.
 # Running Single Neuron script
 Open the MatLab SingleNeuronSynapseTest script in MatLab and run this. 
 The display should look like the output below for a singular neuron.
-(![Alt text](Single_Neuron_Output_Base_2-1.PNG))
+(![Alt text](Single_Neuron_Output_Base_2.PNG))
