@@ -58,7 +58,6 @@ plot(Params.tvec,Params.Input);
 ylabel('I_{ext} (pA)');
 xlabel('Time (s)');
 linkaxes(ax,'x');
-FigFormat(1);
 axis tight;
 xlim(tspan);
 

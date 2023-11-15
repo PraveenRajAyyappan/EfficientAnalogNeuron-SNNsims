@@ -2,13 +2,13 @@
 Make sure you have version R2023b Matlab installed.
 
 ## Possible Errors
-If the code runs but the output does not resemble the imbedded images:
-    -Make sure the variables are calculated correctly and there are no small typos(these should not be present to start)
+If the code runs but the output does not resemble the imbedded output images:
+    -Make sure the variables are calculated correctly and there are no small typos(typos should not be present to start). Check the calculations for variables in other scripts to ensure they match.
     -Ensure the 'Params.NeuronPopulation' parameter is properly set to the amount of neurons for the given code
         -4 for WTA
         -3 for synfire
         -1 for Single Neuron
-
+    
 ## Params
 These are the parameters set for the simulation of the FH neuron to be modified using the SpecifyNeuromsParams script described below.
 
