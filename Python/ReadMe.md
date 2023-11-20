@@ -26,8 +26,8 @@
 
 
 ## FYI
--->There was difficulty running the WTA and Synfire simulations using an ODE function using the odeint function import from SciPy. To solve this issue an euler_solver function was developed as seen in NeuronModules.py.
--->The Python script for a singular FH Type HH Neuron does not use the Euler step function, but rather a simple ODE. The odeint function from SciPy was successfully used for this.
+-->There was difficulty running the WTA and Synfire simulations using an ODE function using the odeint function import from SciPy. Odeint and the standard Python ode solvers reduce step size to aggressively with the network models, leading to convergence issues. To solve this issue a fixed-step euler_solver function was developed as seen in NeuronModules.py.
+-->The Python script for a singular FH Type HH Neuron does not use the Euler step function, but rather a simple ODE solver. The odeint function from SciPy was successfully used for this.
 
 
 ## Running the Script
@@ -44,7 +44,7 @@ It contains the functions and parameters imported and called by the OneNeuron, S
 
 
 ## OneNeuron
-Using a simple ODE function called Neuron, which is called in NeuronTest, this script simulates a singular FH Type HH neuron and its synapse. This code's output displays the three variables(V_k, V_g, V_Na) used to simulate the neuron. It also shows the input current change over time(bottom of figure) as well as the membrane voltage change over time(top of figure).
+Using a simple ODE function called Neuron, which is called in NeuronTest, this script simulates a singular FH Type HH neuron and its synapse. This code's output displays the three gating variables (V_k, V_g, V_Na) as the neuron spikes. It also shows the input stimulation current over time (bottom subplot) as well as the membrane voltage change over time (top subplot).
 
 ![Alt text](OneNeuron_Figure.png)
 

@@ -18,7 +18,7 @@ These are the parameters set for the simulation of the FH neuron to be modified 
 
 ## SpecifyNeuronParams
 Run this in order to change the Parameters of the FH neuron model.
-This will allow the tuning of the simulation to be tailored to specific research based off of differing neuron parameters from different biological species. 
+This will allow the tuning of time constants to be tailored to specific research based off of differing neuron parameters from different biological species. 
 -->Make sure if you change the parameters you change the initial conditions as well.
 # Running SpecifyNeuronParams 
 Open the MatLab SpecifyNeuronParams script in MatLab. 

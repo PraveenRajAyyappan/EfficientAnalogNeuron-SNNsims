@@ -40,7 +40,7 @@ This will display the output of the synfire chain as seen below.
 ## Single Neuron
 This MatLab code simulates a single FH neuron response.
 --> You will need the Optimization Toolbox by Mathworks to run this script
---> If you do not want to install this toolbox you can run a quick transient sim instead.
+--> If you do not want to install this toolbox, you can run a quick transient sim instead.
 # Running Single Neuron script
 Open the MatLab SingleNeuronSynapseTest script in MatLab and run this. 
 The display should look like the output below for a singular neuron.
