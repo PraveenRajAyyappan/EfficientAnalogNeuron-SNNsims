@@ -32,7 +32,7 @@ void matrix_mult_2d(float array_1[2], float array[2][2], float array_final[2]){
 
 int Tri_gen(float dydt[2], float y[2],  float TMAT[2][2], float Inp_voltage){
 
-  float zeta_mat[2] = {(Inp_voltage>=0),((Inp_voltage>=0)-1)};
+  float zeta_mat[2] = {(Inp_voltage>=-2),((Inp_voltage>=-2)-1)};
 
 
   matrix_mult_2d(zeta_mat,TMAT,dydt);
@@ -355,8 +355,8 @@ int main() {
 
   // Define Network Connectivity Via the Synapse Weight Matrix
   //float weights[NeuronPopulation][NeuronPopulation*2]={2.5,2.5};
-  float Syn = 0.26;
-  float weights[NeuronPopulation][NeuronPopulation*2]={{2.5,2.5, 2.5, 2.5, Syn, 2.5},
+  float Syn = 0.28;
+  float weights[NeuronPopulation][NeuronPopulation*2]={{2.5,2.5, 2.5, 2.5, 0.28, 2.5},
          {Syn, 2.5, 2.5, 2.5, 2.5, 2.5},
          {2.5, 2.5, Syn, 2.5, 2.5,2.5}};
 
@@ -376,7 +376,7 @@ int main() {
 
   // Define simulation parameters
   float dt     = 0.001; // Units (ms)
-  int   NSteps = 1e5;  // Total Number of steps to take in the simulation
+  int   NSteps = 1e5+1e5;  // Total Number of steps to take in the simulation
   int PulseStartIdx = 30000;
   int PulseendIdx = 70000;
   float Inp_current[NeuronPopulation] = {};
@@ -384,7 +384,7 @@ int main() {
   // For 1 neuron 20000-80000  - 0.06s/60ms
   // For 3 neuron 20000-120000 - 0.1s/100ms 
 
-  float PulseHeight = 140; 
+  float PulseHeight = 80; 
 
   // Open a file for writing
   FILE *fptr,*fptr1;
