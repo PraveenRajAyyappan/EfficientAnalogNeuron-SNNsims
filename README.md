@@ -36,18 +36,16 @@ Bibtex:
   journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, 
   title={Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/JETCAS.2023.3330069}}
-
+  volume={13},
+  number={4},
+  pages={927-939},
+  doi={10.1109/JETCAS.2023.3330069}
 }
+
 ```
 
 Formatted:
 ```
-S. Bhattacharyya, P. R. Ayyappan and J. O. Hasler, "Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2023.3330069.
+S. Bhattacharyya, P. R. Ayyappan and J. O. Hasler, "Towards Scalable Digital Modeling of Networks of Biorealistic Silicon Neurons," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, vol. 13, no. 4, pp. 927-939, Dec. 2023, doi: 10.1109/JETCAS.2023.3330069.
 ``` 
 The research paper corresponding to the above citation can be found [(https://ieeexplore.ieee.org/document/10305556].
-# Small comment
-# Swagat Comment
